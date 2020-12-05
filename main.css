@@ -1,0 +1,41 @@
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+.container .candidate-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.candidate-contact__phone {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.candidate {
+    display: flex;
+    margin-top: 20px;
+    align-items: baseline;
+    width: 100%;
+}
+
+.candidate .candidate__label {
+    flex: 1;
+}
+
+.candidate .candidate__content {
+    flex: 3;
+    line-height: 25px;
+}
+
+.candidate-col-layout {
+    flex-direction: column;
+}
