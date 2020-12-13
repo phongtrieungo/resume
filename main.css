@@ -25,6 +25,7 @@ body {
     margin-top: 20px;
     align-items: baseline;
     width: 100%;
+    border-bottom: 1px solid;
 }
 
 .candidate .candidate__label {
@@ -38,4 +39,28 @@ body {
 
 .candidate-col-layout {
     flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-row {
+    flex-direction: row;
+}
+
+.d-flex-col {
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
